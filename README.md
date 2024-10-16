@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="ru">
 <head>
   <meta name = "Maximyc" content = "Szadrina Elena"> 
