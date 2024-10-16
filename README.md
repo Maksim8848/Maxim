@@ -1,9 +1,3 @@
-<html lang="ru">
-<head>
-  <meta name = "Maximyc" content = "Szadrina Elena"> 
-  <meta charset="utf-8">
-  <title>Привет!!!</title>
-</head>
 <body>
 <h1><font color="green">Привет!!!</font></h1>
 </body>
