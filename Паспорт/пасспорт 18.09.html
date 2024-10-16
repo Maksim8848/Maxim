@@ -1,0 +1,42 @@
+const change = document.getElementById("change")
+
+function change_all(){
+      if (document.getElementsByTagName('div')[3].innerText==='Иванов'){
+            document.getElementsByTagName('div')[3].innerText='Ivanov'
+            document.getElementsByTagName('div')[4].innerText='Ivan';
+            document.getElementsByTagName('div')[5].innerText='Ivanovich';
+            return;
+     }
+
+
+     if (document.getElementsByTagName('div')[3].innerText==='Ivanov'){
+
+        document.getElementsByTagName('div')[3].innerText='Иванов'
+        document.getElementsByTagName('div')[4].innerText='Иван';
+        document.getElementsByTagName('div')[5].innerText='Иванович';
+        return;
+    }
+
+}
+
+change.addEventListener("click", change_all)
+const change = document.getElementById("change")
+
+function change_all(){
+    if (document.getElementsByTagName('div')[3].innerText==='Ivanov'){
+
+        document.getElementsByTagName('div')[3].innerText='Иванов'
+        document.getElementsByTagName('div')[4].innerText='Иван';
+        document.getElementsByTagName('div')[5].innerText='Иванович';
+    }
+    else{
+
+        if (document.getElementsByTagName('div')[3].innerText==='Иванов'){
+            document.getElementsByTagName('div')[3].innerText='Ivanov'
+            document.getElementsByTagName('div')[4].innerText='Ivan';
+            document.getElementsByTagName('div')[5].innerText='Ivanovich';
+        }
+    }
+}
+
+change.addEventListener("click", change_all)
